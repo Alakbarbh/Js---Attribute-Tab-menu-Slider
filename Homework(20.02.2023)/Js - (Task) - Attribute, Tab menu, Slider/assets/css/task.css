@@ -1,0 +1,42 @@
+.general{
+    position: relative;
+}
+
+
+.button .btn{
+    width: 200px;
+    height: 40px;
+}
+
+.borders{
+    width: 500px;
+    height: 500px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 50px;
+    transform: translateY(-800px);
+    transition: all 1.2s;
+    margin-left: 350px;
+    z-index: 1 !important;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.borders h3{
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.borders i{
+    color: #FAB005;
+    font-size: 40px;
+    margin-left: 230px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.active{
+    transform: translateY(0) !important;
+}
+
